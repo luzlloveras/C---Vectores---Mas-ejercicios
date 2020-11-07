@@ -1,3 +1,8 @@
+// Ingresar, en un orden cualquiera, datos de 16 equipos de futbol.
+// Datos a ingresar: codigo del equipo (int) y cantidad de puntos (int).
+// Mostrar la tabla de posiciones (ordenadas).
+// Mostrar los partidos entre el primer equipo y el ultimo, y el segundo equipo y el anteultimo.
+
 #include <stdio.h>
 #define N 16
 
