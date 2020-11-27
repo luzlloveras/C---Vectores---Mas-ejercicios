@@ -22,16 +22,12 @@ void INGRESO (int vec[], int n)
     int i; 
     srand(0);
     for (i = 0; i < n; i++)
-    {
         vec[i] = rand() % 100; // entre 0 y 99
-    }
 }
  void IMPRIMIR (int vec[], int n)
  {
     int i;
     for (i = 0; i < n; i++)
-    {
         printf("%4d", vec[i]);
-    }
     printf("\n");
  }
