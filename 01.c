@@ -11,18 +11,12 @@ int main()
 
     printf("Ingrese 20 valores enteros:\n");
     for (i=0; i < 20; i++)
-    {
         scanf("%d", &vec[i]);
-    }
     for (i = 0; i < 20; i++)
-    {
         printf("%4d", vec[i]);
-    }
     printf("\n");
     for (i = 19; i >= 0 ; i--)
-    {
         printf("%4d", vec[i]);
-    }
     printf("\n");
     return 0;
 }
