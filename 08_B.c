@@ -41,9 +41,7 @@ void ACCESO (int CUENTA[], char TIPO[], float SALDO[], int L, int C)
 	if (POS < 0)
 		printf("\n El numero de cuenta es inexistente \n");
 	else
-	{
 		printf("\n %d \t %c \t %.2f \n", CUENTA[POS], TIPO[POS], SALDO[POS]);
-	}
 }
 
 // Retorna la posicion de la cuenta buscada o -1
