@@ -32,9 +32,7 @@ float PROMEDIO (int vec[], int n)
     int i, acumulador = 0;
     float promedio;
     for (i = 0; i < n; i++)
-    {
         acumulador += vec[i];
-    }
     promedio = (float) acumulador / n;
     return promedio;
 }
