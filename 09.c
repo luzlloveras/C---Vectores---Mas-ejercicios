@@ -35,9 +35,7 @@ void ORDENAR (int CUENTA[], char TIPO[], float SALDO[], int L)
     float aux_saldo;
 
     for (i = 0; i < L-1; i++)
-    {
         for (j = 0; j < L-i-1; j++)
-        {
             if (SALDO[j] < SALDO[j+1])
             {
                 // Ordena los SALDOS de mayor a menor
@@ -55,8 +53,6 @@ void ORDENAR (int CUENTA[], char TIPO[], float SALDO[], int L)
                 CUENTA[j] = CUENTA[j+1];
                 CUENTA[j+1] = aux_cuenta;
             }
-        }
-    }
 }
 
 void IMPRIME (int CUENTA[], char TIPO[], float SALDO[], int L)
